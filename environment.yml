@@ -1,0 +1,17 @@
+name: dlg
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.0.0=py3.10_cuda11.8_cudnn8_0
+  - numpy
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+      - pytest
+      - black
+      - mypy

@@ -6,11 +6,13 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - pytorch=2.0.0=py3.10_cuda11.8_cudnn8_0
+  - pytorch=1.13.1=py3.10_cuda11.7_cudnn8_0
   - torchtext
+  - torchdata
   - numpy
   - matplotlib
   - jupyter
+  - hugginface:transformers
   - pip
   - pip:
       - pytest
